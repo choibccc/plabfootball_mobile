@@ -1,0 +1,1594 @@
+
+
+
+
+.startPoint{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    z-index: 899998989;
+    background: black;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+#section01{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#section01 .main_video{
+    position: absolute;
+    width: 100%;
+}
+#section01 .main_text{
+    position: absolute;
+    top: 104px;
+    left: 211px;
+}
+#section01 .main_logo{
+    position: absolute;
+    left: 729px;
+    top: 315px;
+    opacity: 0;
+    transition: all 1s;
+}
+#section01.on .main_logo{
+    opacity: 1;
+}
+#section01 .main_t1{
+    position: absolute;
+    left: 210px;
+    bottom: 156px;
+}
+#section01 .main_t2{
+    position: absolute;
+    right: 348px;
+    bottom: 103px;
+}
+#section01 .main_t3{
+    position: absolute;
+    right: 211px;
+    bottom: 103px;
+}
+
+
+
+#section02{
+    position: relative;
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+}
+#section02 .overview_left{
+    position: absolute;
+    width: 589px;
+    height: 464px;
+    left: 205px;
+    top: 272px;
+}
+#section02 .overview_left .over_left{
+    position: absolute;
+    top: 0;
+    left: 1px;
+    z-index: 100;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s;
+}
+#section02.on .overview_left .over_left{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section02 .overview_left .over_left_box{
+    background-color: #ffb928;
+    position: absolute;
+    left: 0;
+    top: 145px;
+    width: 0;
+    height: 18px;
+    transition: all 1s 0.7s;
+}
+#section02.on .overview_left .over_left_box{
+    width: 587px;
+}
+
+#section02 .overview_right{
+    position: absolute;
+    width: 809px;
+    height: 500px;
+    right: 218px;
+    top: 280px;
+}
+#section02 .overview_right .over_right_01{
+    position: absolute;
+    left: 199px;
+    top: 0;
+    z-index: 100;
+    transform: scale(0);
+    transition: all 1s;
+}
+#section02.on .overview_right .over_right_01{
+    transform: scale(1);
+}
+#section02 .overview_right .over_right_02{
+    position: absolute;
+    left: 0;
+    top: 127px;
+    transform: scale(0);
+    transition: all 1s 0.5s;
+}
+#section02.on .overview_right .over_right_02{
+    transform: scale(1);
+}
+#section02 .overview_right .over_right_03{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 1s 0.7s;
+}
+#section02.on .overview_right .over_right_03{
+    transform: scale(1);
+}
+
+#section03{
+    background: #ffffff;
+    width: 100vw;
+    height: 1376px;
+    position: relative;
+}
+#section03 .research{
+    position: absolute;
+    width: 1501px;
+    height: 975px;
+    left: 211px;
+    top: 0;
+}
+#section03 .research .re_01{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section03.on .research .re_01{
+    opacity: 1;
+    transform: scale(1);
+}
+#section03 .research .re_02{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 1s 0.7s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section03.on .research .re_02{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section04{
+    position: relative;
+    height: 860px;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+#section04 .sl_img{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section04 .sl_logo{
+    position: absolute;
+    right: 210px;
+    bottom: 0;
+}
+
+#section05{
+    position: relative;
+    background-color: #ffffff;
+    width: 100vw;
+    height: 1541px;
+}
+
+#section05 .pe_text{
+    position: absolute;
+    left: 577px;
+    top: 134px;
+    transition: all 1s;
+    opacity: 0;
+    transform: translateY(50%);
+}
+#section05.on .pe_text{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section05 .pe_box{
+    position: absolute;
+    width: 1519px;
+    height: 811px;
+    left: 200px;
+    top: 473px;
+    overflow: hidden;
+}
+
+#section05 .pe_box .pe_left{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s 0.7s;
+    transform: translateY(20%);
+    opacity: 0;
+}
+#section05.on .pe_box .pe_left{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section05 .pe_box .pe_right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 1s 0.7s;
+    transform: translateY(20%);
+    opacity: 0;
+}
+#section05.on .pe_box .pe_right{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#section06{
+    position: relative;
+    width: 100vw;
+    height: 2697px;
+}
+
+#section06 .ta_background{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section06 .ta_talk{
+    position: absolute;
+    width: 1373px;
+    height: 1144px;
+    left: 271px;
+    top: 238px;
+}
+
+#section06 .ta_talk .ta_left_person{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#section06 .ta_talk .ta_right_person{
+    position: absolute;
+    right: 0;
+    top: 266px;
+}
+
+#section06 .ta_talk .ta_left_person_02{
+    position: absolute;
+    left: 0;
+    top: 527px;
+}
+
+#section06 .ta_talk .ta_right_person_02{
+    position: absolute;
+    right: 0;
+    top: 796px;
+}
+
+#section06 .ta_talk .ta_talk_01{
+    position: absolute;
+    left: 167px;
+    top: 50px;
+    transition: all 1s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_01{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section06 .ta_talk .ta_talk_02{
+    position: absolute;
+    left: 167px;
+    top: 155px;
+    transition: all 1s 0.4s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_02{
+    opacity: 1;
+    transform: scale(1);
+}
+#section06 .ta_talk .ta_talk_03{
+    position: absolute;
+    right: 152px;
+    top: 316px;
+    transition: all 1s 1.4s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_03{
+    opacity: 1;
+    transform: scale(1);
+}
+#section06 .ta_talk .ta_talk_04{
+    position: absolute;
+    right: 152px;
+    top: 421px;
+    transition: all 1s 1.8s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_04{
+    opacity: 1;
+    transform: scale(1);
+}
+#section06 .ta_talk .ta_talk_05{
+    position: absolute;
+    left: 167px;
+    top: 580px;
+    transition: all 1s 2.8s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_05{
+    opacity: 1;
+    transform: scale(1);
+}
+#section06 .ta_talk .ta_talk_06{
+    position: absolute;
+    left: 167px;
+    top: 685px;
+    transition: all 1s 3.2s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_06{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section06 .ta_talk .ta_talk_07{
+    position: absolute;
+    right: 152px;
+    top: 845px;
+    transition: all 1s 4.2s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_07{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section06 .ta_talk .ta_talk_08{
+    position: absolute;
+    right: 152px;
+    top: 949px;
+    transition: all 1s 4.6s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_08{
+    opacity: 1;
+    transform: scale(1);
+}
+#section06 .ta_talk .ta_talk_09{
+    position: absolute;
+    right: 152px;
+    top: 1053px;
+    transition: all 1s 5s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section06.on .ta_talk .ta_talk_09{
+    opacity: 1;
+    transform: scale(1);
+}
+
+#section06 .ta_box{
+    position: absolute;
+    width: 1118px;
+    height: 926px;
+    left: 394px;
+    bottom: 237px;
+}
+
+#section06 .ta_problem{
+    position: absolute;
+    width: 1038px;
+    height: 214px;
+    top: 0;
+    left: 38px;
+    overflow: hidden;
+}
+#section06 .ta_problem .ta_problem_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    transform: translateY(30%);
+    opacity: 0;
+}
+#section06 .ta_problem.on .ta_problem_box{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section06 .ta_problem .ta_problem_text{
+    position: absolute;
+    top: 91px;
+    left: 231px;
+    transition: all 1s;
+    transform: translateY(60%);
+    opacity: 0;
+}
+#section06 .ta_problem.on .ta_problem_text{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section06 .ta_solution{
+    position: absolute;
+    width: 1118px;
+    height: 438px;
+    left: 0;
+    top: 267px;
+    overflow: hidden;
+}
+#section06 .ta_solution .ta_solution_box{
+    position: absolute;
+    top: 10px;
+    left: 38px;
+    transition: all 1s;
+    transform: translateY(30%);
+    opacity: 0;
+}
+#section06 .ta_solution.on .ta_solution_box{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section06 .ta_solution .ta_solution_text_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s 0.5s;
+    opacity: 0;
+    transform: translateY(30%);
+}
+#section06 .ta_solution.on .ta_solution_text_01{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section06 .ta_solution .ta_solution_text_02{
+    position: absolute;
+    left: 340px;
+    top: 0;
+    opacity: 0;
+    transform: translateY(30%);
+    transition: all 1s 1s;
+}
+#section06 .ta_solution.on .ta_solution_text_02{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section06 .ta_solution .ta_solution_text_03{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(30%);
+    transition: all 1s 1.5s;
+    opacity: 0;
+}
+#section06 .ta_solution.on .ta_solution_text_03{
+    opacity: 1;
+    transform: translateY(0);
+
+}
+
+#section06 .ta_goal{
+    position: absolute;
+    height: 214px;
+    width: 1038px;
+    left: 38px;
+    bottom: 0;
+    overflow: hidden;
+}
+#section06 .ta_goal .ta_goal_box{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(30%);
+    opacity: 0;
+    transition: all 1s;
+}
+#section06 .ta_goal.on .ta_goal_box{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section06 .ta_goal .ta_goal_box_text{
+    position: absolute;
+    top: 84px;
+    left: 236px;
+    transform: translateY(60%);
+    transition: all 1s;
+    opacity: 0;
+}
+#section06 .ta_goal.on .ta_goal_box_text{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section07{
+    position: relative;
+    width: 100vw;
+    height: 1609px;
+    background-color: #ffffff;
+}
+#section07 .go_title{
+    position: absolute;
+    left: 814px;
+    top: 272px;
+    transition: all 1s;
+    opacity: 0;
+    transform: translateY(50%);
+}
+#section07.on .go_title{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section07 .go_ball{
+    position: absolute;
+    left: 878px;
+    top: 420px;
+    animation: go_ball 2s linear alternate infinite;
+}
+
+@keyframes go_ball {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(100px);
+    }
+}
+
+
+#section07 .go_ball_shadow{
+    position: absolute;
+    left: 873px;
+    top: 630px;
+    animation: shadow 2s linear alternate infinite;
+}
+
+@keyframes shadow {
+    0%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+#section07 .go_text{
+    position: absolute;
+    width: 1251px;
+    height: 139px;
+    left: 334px;
+    top: 759px;
+}
+#section07 .go_text .go_left_text{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s 1s;
+    opacity: 0;
+    transform: translateY(50%);
+}
+#section07.on .go_text .go_left_text{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section07 .go_text .go_right_text{
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 1s 1.5s;
+    opacity: 0;
+    transform: translateY(50%);
+}
+#section07.on .go_text .go_right_text{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section07 .go_circle{
+    position: absolute;
+    width: 1161px;
+    height: 385px;
+    left: 377px;
+    top: 1083px;
+}
+#section07 .go_circle .go_back_circle1{
+    position: absolute;
+    left: 111px;
+    top: 0;
+    animation: go_back_circle 15s linear infinite;transform-origin: 50% 50%;
+}
+#section07 .go_circle .go_back_circle2{
+    position: absolute;
+    left: 416px;
+    top: 0;
+    animation: go_back_circle 15s linear infinite;transform-origin: 50% 50%;
+}
+#section07 .go_circle .go_back_circle3{
+    position: absolute;
+    right: 119px;
+    top: 0;
+    animation: go_back_circle 15s linear infinite;transform-origin: 50% 50%;
+}
+@keyframes go_back_circle{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#section07 .go_circle .go_circle_01{
+    position: absolute;
+    left: 0;
+    top: 26px;
+}
+#section07 .go_circle .go_circle_02{
+    position: absolute;
+    left: 272px;
+    top: 26px;
+}
+#section07 .go_circle .go_circle_03{
+    position: absolute;
+    left: 544px;
+    top: 26px;
+}
+#section07 .go_circle .go_circle_04{
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+#section08{
+    position: relative;
+    width: 100vw;
+    height: 1515px;
+    background-color: #ffffff;
+}
+#section08  .p1_phone{
+    position: absolute;
+    left: 716px;
+    top: 294px;
+}
+#section08 .p1_tag{
+    position: absolute;
+    top: 346px;
+    left: 301px;
+}
+#section08 .p1_background{
+    position: absolute;
+    left: 0;
+    top: 135px;
+}
+#section09{
+    position: relative;
+    width: 100vw;
+    height: 1124px;
+    background-color: #ffffff;
+}
+#section09 .st_title{
+    position: absolute;
+    left: 553px;
+    top: 132px;
+    transition: all 1s;
+    transform: translateY(50%);
+    opacity: 0;
+    overflow: hidden;
+}
+#section09.on .st_title{
+    transform: translateY(0);
+    opacity: 1;
+
+}
+#section09 .st_little_title{
+    position: absolute;
+    left: 310px;
+    top: 468px;
+    transition: all 1s 0.6s;
+    transform: translateY(50%);
+    opacity: 0;
+}
+#section09.on .st_little_title{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section09 .st_typo{
+    position: absolute;
+    width: 756px;
+    height: 467px;
+    left: 301px;
+    top: 516px;
+    transition: all 1s 1s;
+    transform: translateY(50%);
+    opacity: 0;
+    overflow: hidden;
+}
+#section09.on .st_typo{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section09 .st_typo .st_typo_box_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section09 .st_typo .st_typo_box_02{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#section09 .st_typo .st_aa{
+    position: absolute;
+    left: 20px;
+    top: 61px;
+}
+#section09 .st_typo .st_ga{
+    position: absolute;
+    left: 42px;
+    top: 283px;
+}
+#section09 .st_typo .st_eng_title{
+    position: absolute;
+    top: 63px;
+    left: 269px;
+}
+#section09 .st_typo .st_kor_title{
+    position: absolute;
+    top: 299px;
+    left: 269px;
+}
+#section09 .st_typo .st_eng{
+    position: absolute;
+    top: 128px;
+    right: 0;
+}
+#section09 .st_typo .st_kor{
+    position: absolute;
+    top: 376px;
+    right: 152px;
+}
+#section09 .st_color{
+    position: absolute;
+    width: 578px;
+    height: 301px;
+    right: 223px;
+    top: 578px;
+    transition: all 1s 1s;
+    transform: translateY(60%);
+    opacity: 0;
+    overflow: hidden;
+}
+#section09.on .st_color{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section09 .st_color .st_main_color{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section09 .st_color .st_point_color{
+    position: absolute;
+    left: 0;
+    top: 205px;
+}
+#section09 .st_color .st_color_yellow{
+    position: absolute;
+    left: 0;
+    top: 40px;
+    z-index: 100;
+}
+#section09 .st_color .st_color_black{
+    position: absolute;
+    left: 139px;
+    top: 40px;
+}
+#section09 .st_color .st_color_01{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+}
+#section09 .st_color .st_color_02{
+    position: absolute;
+    left: 139px;
+    bottom: 0;
+    z-index: 90;
+}
+#section09 .st_color .st_color_03{
+    position: absolute;
+    left: 283px;
+    bottom: 0;
+    z-index: 80;
+}
+#section09 .st_color .st_color_04{
+    position: absolute;
+    left: 423px;
+    bottom: 0;
+    z-index: 70;
+}
+#section010{
+    position: relative;
+    width: 100vw;
+    height: 1584px;
+    background-color: #ffffff;
+}
+#section010 .p2_left_box{
+    position: absolute;
+    width: 736px;
+    height: 647px;
+    left: 214px;
+    top: 131px;
+    overflow: hidden;
+}
+#section010 .p2_left_box .p2_box_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section010 .p2_left_box .p2_phone_01{
+    position: absolute;
+    left: 44px;
+    top: 80px;
+    transition: all 1s;
+    transform: translateY(100%);
+}
+#section010.on .p2_left_box .p2_phone_01{
+    transform: translateY(0);
+}
+#section010 .p2_right_box{
+    position: absolute;
+    width: 736px;
+    height: 647px;
+    right: 214px;
+    top: 131px;
+    overflow: hidden;
+}
+#section010 .p2_right_box .p2_box_02{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section010 .p2_right_box .p2_phone_02{
+    position: absolute;
+    left: 10px;
+    bottom: -36px;
+    transition: all 1s;
+    transform: scale(0.5);
+}
+#section010.on .p2_right_box .p2_phone_02{
+    transform: scale(1);
+}
+#section010 .p2_bottom_box{
+    position: absolute;
+    width: 1492px;
+    height: 647px;
+    left: 214px;
+    top: 795px;
+    overflow: hidden;
+}
+#section010 .p2_box_03{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section010 .p2_bottom_box .p2_phone_03{
+    position: absolute;
+    left: 354px;
+    top: 81px;
+    transition: all 3s 1.3s;
+    transform: translateY(0);
+}
+#section010.on .p2_bottom_box .p2_phone_03{
+    transform: translateY(-50%);
+}
+#section011{
+    position: relative;
+    width: 100vw;
+    height: 1468px;
+    background-color: #ffffff;
+}
+#section011 .fl_title{
+    position: absolute;
+    top: 131px;
+    left: 646px;
+    transform: translateY(50%);
+    transition: all 1s;
+    opacity: 0;
+}
+#section011.on .fl_title{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section011 .fl_chart{
+    position: absolute;
+    left: 338px;
+    top: 455px;
+    transition: all 1s 0.6s;
+    transform: scale(0);
+    opacity: 0;
+}
+#section011.on .fl_chart{
+    transform: scale(1);
+    opacity: 1;
+}
+#section012{
+    position: relative;
+    width: 100vw;
+    height: 1282px;
+    background-color: #ffffff;
+}
+#section012 .p3_back_typo{
+    position: absolute;
+    left: 0;
+    top: 498px;
+    animation: p3_typo 20s linear infinite;
+}
+
+#section012 .p3_center_box{
+    position: absolute;
+    width: 1501px;
+    height: 772px;
+    left: 209px;
+    top: 215px;
+    overflow: hidden;
+}
+#section012 .p3_center_box .p3_box{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section012 .p3_center_box .p3_stroke_typo{
+    position: absolute;
+    left: -209px;
+    top: 283px;
+    animation: p3_typo 20s linear infinite;
+}
+
+@keyframes p3_typo {
+    100%{
+        transform: translateX(2308px);
+
+    }
+}
+#section012 .p3_phone{
+    position: absolute;
+    left: 554px;
+    top: 129px;
+    animation: p3_phone 3s infinite linear alternate;
+}
+@keyframes p3_phone {
+    0%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+
+}
+#section013{
+    position: relative;
+    width: 100vw;
+    height: 3463px;
+    background-color: #ffffff;
+}
+#section013 .ma_background{
+    position: absolute;
+    left: 0;
+    top: 143px;
+}
+#section013 .ma_title{
+    position: absolute;
+    top: 260px;
+    left: 601px;
+}
+#section013 .ma_phone{
+    position: absolute;
+    left: 749px;
+    top: 644px;
+}
+#section013 .ma_left_box_01{
+    position: absolute;
+    left: 190px;
+    top: 775px;
+    transition: all 2s;
+    transform: scale(0);
+    opacity: 0;
+}
+#section013.on .ma_left_box_01{
+    opacity: 1;
+    transform: scale(1);
+}
+#section013 .ma_right_box_01{
+    position: absolute;
+    top: 622px;
+    right: 191px;
+    transition: all 1s;
+    transform: scale(0);
+    opacity: 0;
+}
+#section013.on .ma_right_box_01{
+    transform: scale(1);
+    opacity: 1;
+}
+#section013 .ma_left_content{
+    position: absolute;
+    width: 458px;
+    height: 506px;
+    left: 202px;
+    top: 1379px;
+}
+#section013 .ma_left_content .ma_tab_bar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+    transform: scale(0);
+    opacity: 0;
+}
+#section013 .ma_left_content.on .ma_tab_bar{
+    transform: scale(1);
+    opacity: 1;
+}
+#section013 .ma_left_content .ma_tab_bar_text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 1s;
+    transform: translateY(50%);
+    opacity: 0;
+}
+#section013 .ma_left_content.on .ma_tab_bar_text{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section013 .ma_right_content{
+    position: absolute;
+    width: 473px;
+    height: 513px;
+    top: 1369px;
+    right: 164px;
+}
+#section013 .ma_right_content .ma_floating{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+    transform: scale(0);
+    opacity: 0;
+}
+#section013 .ma_right_content.on .ma_floating{
+    transform: scale(1);
+    opacity: 1;
+}
+#section013 .ma_right_content .ma_floating_text{
+    position: absolute;
+    left: 13px;
+    bottom: 0;
+    transition: all 1s;
+    opacity: 0;
+    transform: translateY(50%);
+}
+#section013 .ma_right_content.on .ma_floating_text{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section013 .ma_bottom_content{
+    position: absolute;
+    width: 100vw;
+    height: 1260px;
+    bottom: 155px;
+    left: 0;
+}
+#section013 .ma_bottom_content .ma_left_box_02{
+    position: absolute;
+    top: 65px;
+    left: 0;
+    animation: ma_box_02 2s alternate linear infinite;
+}
+#section013 .ma_bottom_content .ma_left_box_03{
+    position: absolute;
+    left: 367px;
+    top: 144px;
+    animation: ma_box_01 2s alternate linear infinite;
+}
+#section013 .ma_bottom_content .ma_left_box_04{
+    position: absolute;
+    left: 476px;
+    top: 504px;
+    animation: ma_box_02 2s alternate linear infinite;
+}
+#section013 .ma_bottom_content .ma_left_box_05{
+    position: absolute;
+    left: 41px;
+    top: 934px;
+    animation: ma_box_01 2s alternate linear infinite;
+}
+#section013 .ma_bottom_content .ma_right_box_02{
+    position: absolute;
+    top: 0;
+    right: 289px;
+    animation: ma_box_02 2s alternate linear infinite;
+}
+#section013 .ma_bottom_content .ma_right_box_03{
+    position: absolute;
+    right: 0;
+    top: 620px;
+    animation: ma_box_01 2s alternate linear infinite;
+}
+@keyframes ma_box_01 {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(75px);
+    }
+}
+@keyframes ma_box_02 {
+    0%{
+        transform: translateY(75px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#section014{
+    position: relative;
+    width: 100vw;
+    height: 1097px;
+    background-color: #ffb928;
+}
+#section014 .sl02_title{
+    position: absolute;
+    left: 206px;
+    top: 701px;
+    transition: all 1s;
+    transform: translateY(50%);
+    opacity: 0;
+}
+#section014.on .sl02_title{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section014 .sl02_phone{
+    position: absolute;
+    top: 0;
+    left: 247px;
+}
+#section014 .sl02_phone_box_02{
+    position: absolute;
+    left: 960px;
+    top: 299px;
+    animation: sl02_shadow 2s alternate linear infinite;
+}
+#section014 .sl02_phone_box_01{
+    position: absolute;
+    left: 969px;
+    top: 221px;
+    animation: sl02_box 2s alternate linear infinite;
+}
+#section014 .sl02_phone_box_04{
+    position: absolute;
+    left: 1323px;
+    top: 386px;
+    animation: sl02_shadow 2s alternate linear infinite;
+}
+#section014 .sl02_phone_box_03{
+    position: absolute;
+    left: 1331px;
+    top: 339px;
+    animation: sl02_box 2s alternate linear infinite;
+}
+@keyframes sl02_box {
+    0%{
+        transform: translateY(-30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+
+}
+@keyframes sl02_shadow {
+    0%{
+        transform: scale(85%);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+#section015{
+    position: relative;
+    width: 100vw;
+    height: 1464px;
+    background-color: #ffffff;
+}
+#section015 .so_phone_01{
+    position: absolute;
+    left: 321px;
+    top: 328px;
+}
+#section015 .so_phone_02_inner{
+    position: absolute;
+    width: 300px;
+    height: 646px;
+    left: 624px;
+    top: 456px;
+    overflow: hidden;
+}
+#section015 .so_phone_02{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 5s;
+    transform: translateY(0);
+}
+#section015.on .so_phone_02{
+    transform: translateY(-40%);
+}
+#section015 .so_phone_02_frame{
+    position: absolute;
+    left: 579px;
+    top: 422px;
+}
+#section015 .so_title_box{
+    position: absolute;
+    width: 0;
+    height: 23px;
+    background-color: #ffb928;
+    left: 1117px;
+    top: 470px;
+    transition: all 1s 1s;
+}
+#section015.on .so_title_box{
+    width: 174px;
+}
+#section015 .so_title{
+    position: absolute;
+    left: 1110px;
+    top: 363px;
+    transition: all 1s;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+#section015.on .so_title{
+    transform: translateX(0);
+    opacity: 1;
+}
+#section016{
+    position: relative;
+    width: 100vw;
+    height: 1245px;
+}
+#section016 .re_left_background{
+    position: absolute;
+    width: 960px;
+    height: 1245px;
+    left: 0;
+    top: 0;
+    background-color: #2a2a2a;
+}
+#section016 .re_right_background{
+    position: absolute;
+    width: 960px;
+    height: 1245px;
+    right: 0;
+    top: 0;
+    background-color: #ffb928;
+}
+#section016 .re_left{
+    position: absolute;
+    width: 652px;
+    height: 902px;
+    left: 186px;
+    top: 181px;
+}
+#section016 .re_left .re_left_title{
+    position: absolute;
+    top: 0;
+    left: 81px;
+    transition: all 1s;
+    transform: translateY(50%);
+    opacity: 0;
+}
+#section016.on .re_left .re_left_title{
+    transform: translateY(0);
+    opacity: 1;
+
+}
+#section016 .re_left .re_left_phone{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(0);
+    transition: all 1s;
+    opacity: 0;
+}
+#section016.on .re_left .re_left_phone{
+    transform: scale(1);
+    opacity: 1;
+}
+
+#section016 .re_right{
+    position: absolute;
+    width: 729px;
+    height: 1013px;
+    top: 181px;
+    right: 191px;
+}
+#section016 .re_right .re_right_title{
+    position: absolute;
+    top: 0;
+    right: 140px;
+    transition: all 1s;
+    transform: translateY(50%);
+    opacity: 0;
+}
+#section016.on .re_right .re_right_title{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section016 .re_right .re_right_phone{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: scale(0);
+    transition: all 1s;
+    opacity: 0;
+}
+#section016.on .re_right .re_right_phone{
+    opacity: 1;
+    transform: scale(1);
+}
+#section017{
+    position: relative;
+    width: 100vw;
+    height: 1575px;
+}
+#section017 .co_background{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section017 .co_box{
+    position: absolute;
+    width: 0;
+    height: 23px;
+    left: 376px;
+    top: 381px;
+    background-color: #4c4c4c;
+    transition: all 1s 1s;
+}
+#section017.on .co_box{
+    width: 177px;
+    opacity: 1;
+}
+#section017 .co_title{
+    position: absolute;
+    left: 381px;
+    top: 272px;
+    transition: all 1s;
+    transform: translateY(50%);
+    opacity: 0;
+}
+#section017.on .co_title{
+    transform: translateY(0);
+    opacity: 1;
+}
+#section017 .co_phone{
+    position: absolute;
+    width: 1576px;
+    height: 721px;
+    left: 344px;
+    top: 632px;
+    overflow: hidden;
+}
+#section017 .co_phone .co_phone_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s 1s;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+#section017.on .co_phone .co_phone_01{
+    transform: translateX(0);
+    opacity: 1;
+}
+#section017 .co_phone .co_phone_02{
+    position: absolute;
+    top: 5px;
+    left: 362px;
+    transition: all 1s 1.3s;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+#section017.on .co_phone .co_phone_02{
+    transform: translateX(0);
+    opacity: 1;
+}
+#section017 .co_phone .co_phone_03{
+    position: absolute;
+    top: 5px;
+    left: 706px;
+    transition: all 1s 1.6s;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+#section017.on .co_phone .co_phone_03{
+    transform: translateX(0);
+    opacity: 1;
+}
+#section017 .co_phone .co_phone_04{
+    position: absolute;
+    top: 5px;
+    left: 1050px;
+    transition: all 1s 1.9s;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+#section017.on .co_phone .co_phone_04{
+    transform: translateX(0);
+    opacity: 1;
+}
+#section017 .co_phone .co_phone_05{
+    position: absolute;
+    top: 5px;
+    left: 1395px;
+    transition: all 1s 2.2s;
+    opacity: 0;
+    transform: translateX(-50%);
+}
+#section017.on .co_phone .co_phone_05{
+    transform: translateX(0);
+    opacity: 1;
+}
+#section018{
+    position: relative;
+    width: 100vw;
+    height: 1522px;
+    background-color: #ffffff;
+}
+#section018 .my_box{
+    position: absolute;
+    width: 0;
+    height: 23px;
+    background-color: #ffb928;
+    left: 284px;
+    top: 493px;
+    transition: all 1s 1s;
+    opacity: 0;
+}
+#section018.on .my_box{
+    width: 216px;
+    opacity: 1;
+}
+#section018 .my_title{
+    position: absolute;
+    left: 284px;
+    top: 384px;
+    opacity: 0;
+    transition: all 1s;
+    transform: translateY(50%);
+}
+#section018.on .my_title{
+    opacity: 1;
+    transform: translateY(0);
+}
+#section018 .my_pointcard{
+    position: absolute;
+    left: 270px;
+    top: 814px;
+}
+#section018 .my_pointcard_text{
+    position: absolute;
+    left: 306px;
+    top: 751px;
+}
+#section018 .my_phone_inner{
+    position: absolute;
+    width: 287px;
+    height: 617px;
+    top: 357px;
+    right: 676px;
+    overflow: hidden;
+}
+#section018 .my_phone_inner .my_phone_01_02{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section018 .my_phone_inner .my_phone_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+    transform: translateX(0);
+}
+#section018.on .my_phone_inner .my_phone_01{
+    transform: translateX(-100%);
+}
+#section018 .my_phone_01_frame{
+    position: absolute;
+    left: 911px;
+    top: 325px;
+}
+#section018 .my_phone_02{
+    position: absolute;
+    right: 195px;
+    top: 386px;
+    transition: all 1s 0.6s;
+    opacity: 0;
+    transform: scale(0);
+}
+#section018.on .my_phone_02{
+    opacity: 1;
+    transform: scale(1);
+}
+#section019{
+    position: relative;
+    width: 100vw;
+    height: 2693px;
+    background-color: #ffffff;
+}
+#section019 .fo_background_01{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+#section019 .fo_background_02{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+#section019 .fo_phone_shadow{
+    position: absolute;
+    left: 477px;
+    top: 1082px;
+    animation: fo_phone 2s alternate linear infinite;
+}
+#section019 .fo_phone{
+    position: absolute;
+    left: 514px;
+    top: 927px;
+    animation: fo_phone 2s alternate linear infinite;
+}
+@keyframes fo_phone {
+    0%{
+        transform: rotateY(25deg) translateY(35px);
+    }
+    100%{
+        transform: rotateY(0) translateY(0px);
+    }
+    
+}
+#section019 .fo_title{
+    position: absolute;
+    left: 846px;
+    bottom: 143px;
+}
